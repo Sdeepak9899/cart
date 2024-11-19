@@ -6,6 +6,7 @@ import Login from "./app/Login";
 import Forgot from "./app/Login/forgot";
 import Register from "./app/Login/Register";
 import Cart from "./app/Cart/cart";
+import AddSelecte from './app/Cart/select';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="Forgot" element={<Forgot/>}/>
           <Route path="Register" element={<Register />}/>
           <Route path="/Cart" element={<Cart/>}/>
+          <Route path='/select' element={<AddSelecte/>}/>
         </Routes>
       </BrowserRouter>
     </div>
